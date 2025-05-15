@@ -1,0 +1,66 @@
+
+This file contains a description of the data used in this project. Data is stored and maintained by CBS.
+
+
+"geolocation_data.csv" contains the GPS measurements collected in the 2022/2023 field test of the travel app.
+It contains 15,654,868 rows and the following 21 columns:
+- user_id: unique respondent ID
+- lon: longitude measurement
+- lat: latitude measurement
+- day (IDate)
+- timestamp (POSIXct)
+- hour_unique
+- obs_id
+- sensor_type
+- provider
+- battery_level
+- altitude
+- bearing
+- accuracy: accuracy of lon/lat measurement in meters (smaller = more precise measurement)
+- med.lon: median-smoothed longitude
+- med.lat: median-smoothed latitude
+- lon_smoothed: true is original longitude value is not equal to the smoothed longitude value
+- lat_smoothed true is original latitude value is not equal to the smoothed longitude value
+- lonlat_smoothed: either lon_smoothed or lat_smoothed is true
+- timediff_left: time difference (seconds) between current observations and previous observation
+- timediff_right: time difference (seconds) between currect observatiosn and next observation
+- quality_indicator: has been used previously to filter data based ondata quality. Data only contains 'high'
+
+
+"event_data.csv" contains the event-level information based on the stop/track segmentation algorithm in the app.
+It contains 14,026 rows and the following 10 columns:
+- user_id
+- start_time (POSIXct)
+- end_time (POXIXct)
+- label: either 'stop', 'track' or '' (if missing)
+- label_track: transport mode label
+- label_stop: stop purpuse label
+- fase: one of 3 data collection phases
+- VariantCode: number indicating experimental condition (not applicable for this study)
+- invitedstudyduration: either 1 or 7 days
+- n_geolocations: number of GPS measurements in the event
+
+
+"external_validation_data_labeled.csv" contains the GPS measurements from the 2024 travel app field test.
+It contains 420,007 rows and 6 columns.
+This dataset is publicly available at https://github.com/essnet-ssi/geoservice-ssi as 'ssi_open_geodata.csv'
+
+
+"external_validation_data_detailed.csv" contains a more detailed version of the previous data, including the accuracy and altitude variables used in this study.
+It contains 420,007 rows and 29 columns.
+
+
+"external_validation_events.csv" contains event-level information based on diaries kept by the respondents
+It contains 134 rows and the following 4 columns:
+- start_timestamp,
+- end_timestamp,
+- mode
+- user_id
+
+
+OSM datasets for the Netherlands and the German regions Niedersachsen, Badem-Wurtemberg and Nordrhein-Westfalen have been downloaded from GeoFabrik.
+The following datasets have been used:
+- netherlands-latest.osm.pbf (https://download.geofabrik.de/europe/netherlands.html). Assessed on ...
+- baden-wuerttemberg-latest.osm.pbf (https://download.geofabrik.de/europe/germany/baden-wuerttemberg.html). Assessed on ...
+- nordrhein-westfalen-latest.osm.pbf (https://download.geofabrik.de/europe/germany/nordrhein-westfalen.html). Assessed on ...
+- niedersachsen-latest.osm.pbf (https://download.geofabrik.de/europe/germany/niedersachsen.html). Assessed on ...

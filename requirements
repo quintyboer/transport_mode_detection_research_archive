@@ -1,0 +1,29 @@
+
+Analyses were done in RStudio version 2024.09.1+394 with R version 4.4.3 (2025-02-28) and Python version 3.10.12
+
+R packages:
+
+xtable_1.8-4
+string_1.5.1
+ranger_0.17.0
+tidyr_1.3.1
+viridis_0.6.5
+viridisLite_0.4.2
+xgboost_1.7.8.1
+caret_6.0-94
+lattice_0.22-5
+ggplot2_3.5.1
+e1071_1.7-16
+geosphere_1.5-20
+data.table_1.16.0
+lubridate_1.9.3
+dplyr_1.1.4
+
+
+Python libraries:
+
+pandas 2.2.3
+numpy 2.2.2
+geopandas 1.0.1
+shapely 2.0.6
+pyrosm 0.6.2
