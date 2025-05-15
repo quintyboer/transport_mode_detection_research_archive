@@ -26,4 +26,4 @@ CBS collects data under Art. 6.1(a) of the GDPR and maintains the secure storage
 
 # Permission and access
 
-The scripts used in the study are stored within the research archive on GitHub (link). These will be openly accessible for an indefinite amount of time. Please note that the study is not reproducible without the data, which is **not** publicly available.
+The scripts used in the study are stored within the research archive on GitHub (link). These will be openly accessible for an indefinite amount of time. Please note that the study is not reproducible without the data, which are **not** publicly available.
