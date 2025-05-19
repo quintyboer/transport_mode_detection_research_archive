@@ -58,9 +58,9 @@ It contains 134 rows and the following 4 columns:
 - user_id
 
 
-OSM datasets for the Netherlands and the German regions Niedersachsen, Badem-Wurtemberg and Nordrhein-Westfalen have been downloaded from GeoFabrik.
+OSM datasets for the Netherlands and the German regions Niedersachsen, Baden-Württemberg and Nordrhein-Westfalen have been downloaded from GeoFabrik.
 The following datasets have been used:
-- netherlands-latest.osm.pbf (https://download.geofabrik.de/europe/netherlands.html). Assessed on ...
-- baden-wuerttemberg-latest.osm.pbf (https://download.geofabrik.de/europe/germany/baden-wuerttemberg.html). Assessed on ...
-- nordrhein-westfalen-latest.osm.pbf (https://download.geofabrik.de/europe/germany/nordrhein-westfalen.html). Assessed on ...
-- niedersachsen-latest.osm.pbf (https://download.geofabrik.de/europe/germany/niedersachsen.html). Assessed on ...
+- netherlands-latest.osm.pbf (https://download.geofabrik.de/europe/netherlands.html). Assessed on 30-01-2025.
+- baden-wuerttemberg-latest.osm.pbf (https://download.geofabrik.de/europe/germany/baden-wuerttemberg.html). Assessed on 18-04-2025.
+- nordrhein-westfalen-latest.osm.pbf (https://download.geofabrik.de/europe/germany/nordrhein-westfalen.html). Assessed on 18-04-2025.
+- niedersachsen-latest.osm.pbf (https://download.geofabrik.de/europe/germany/niedersachsen.html). Assessed on 18-04-2025.
